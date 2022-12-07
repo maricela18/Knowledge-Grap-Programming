@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#"
+     xml:base="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#hasActiveMetabolites -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#hasActiveMetabolites">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#Medicament"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#ChemicalIngredient"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#hasCIChemicalClass -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#hasCIChemicalClass">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#Medicament"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#ChemicalIngredient"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#hasCIMoA -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#hasCIMoA"/>
+    
+
+
+    <!-- http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#hasCIPE -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#hasCIPE">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#Medicament"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#PhysiologicalEffect"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#hasCIWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#hasCIWith">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#Medicament"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#Disease"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#hasDoseForm -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#hasDoseForm">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#Medicament"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#DoseForm"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#hasIngredient -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#hasIngredient">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#Medicament"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#ChemicalIngredient"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#hasMoA -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#hasMoA">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#Medicament"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#MechanismOfAction"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#hasPE -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#hasPE">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#Medicament"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#PhysiologicalEffect"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#mayDiagnose -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#mayDiagnose">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#Medicament"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#Disease"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#mayPrevent -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#mayPrevent">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#Medicament"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#Disease"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#mayTreat -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#mayTreat">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#Medicament"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#Disease"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#siteOfMetabolism -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#siteOfMetabolism">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#Medicament"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#ClinicalKinetics"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#hasChemicalName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#hasChemicalName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#ChemicalIngredient"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#hasClinicalKineticsName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#hasClinicalKineticsName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#ClinicalKinetics"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#hasDiseaseName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#hasDiseaseName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#Disease"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#hasDoseDescription -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#hasDoseDescription">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#DoseForm"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#hasIRI -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#hasIRI">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#Medicament"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#hasLabel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#hasLabel">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#Medicament"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#hasMechanismOfActionName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#hasMechanismOfActionName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#MechanismOfAction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#hasNUI -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#hasNUI">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#Medicament"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#hasPhysiologicalEffectName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#hasPhysiologicalEffectName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#PhysiologicalEffect"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#hasRxNormCUI -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#hasRxNormCUI">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#Medicament"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#hasRxNormName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#hasRxNormName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#Medicament"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#hasStrength -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#hasStrength">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#Medicament"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#hasUnits -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#hasUnits">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#Medicament"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#ChemicalIngredient -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#ChemicalIngredient"/>
+    
+
+
+    <!-- http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#ClinicalKinetics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#ClinicalKinetics"/>
+    
+
+
+    <!-- http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#Disease -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#Disease"/>
+    
+
+
+    <!-- http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#DoseForm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#DoseForm"/>
+    
+
+
+    <!-- http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#MechanismOfAction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#MechanismOfAction"/>
+    
+
+
+    <!-- http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#Medicament -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#Medicament"/>
+    
+
+
+    <!-- http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#PhysiologicalEffect -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament#PhysiologicalEffect"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

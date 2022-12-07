@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1658146260337" name="http://purl.obolibrary.org/obo/dron.owl" uri="dron.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1658146260337" name="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2020/7/Disease" uri="Disease.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1658146260337" name="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2020/7/LaboratoryTest" uri="LaboratoryTest.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1658146260337" name="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2020/7/Medicament" uri="Medicament.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1658146260337" name="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2020/8/Symptom" uri="Symptom.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1658146260337" name="duplicate:http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Disease2" uri="Disease2.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1658146260337" name="duplicate:http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Disease2" uri="Disease2empty.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1658146260337" name="http://www.semanticweb.org/maricelaclaudiabravo/ontologies/2022/6/Medicament" uri="Medicament2.owl"/>
+    </group>
+</catalog>
